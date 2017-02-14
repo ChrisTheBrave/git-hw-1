@@ -62,6 +62,7 @@
 
           <label for='lightsaber-color'>Lightsaber Color</label>
           <select>
+            <option value=''>Select Color</option>
             <option value='Blue'>Blue</option>
             <option value='Red'>Red</option>
             <option value='Green'>Green</option>
@@ -74,24 +75,70 @@
         <aside>
 
           <label for='levitate'>How many objects can you levitate?</label>
-          <select>
-            <option value='1'>1</option>
-            <option value='2'>2</option>
-            <option value='3'>3</option>
-            <option value='4'>4</option>
-            <option value='5'>5</option>
-            <option value='6'>6</option>
-            <option value='7'>7</option>
-            <option value='8'>8</option>
-            <option value='9'>9</option>
-            <option value='10'>10</option>
+          <input type='number' name='levitate' id='levitate' min='1' max='7'>
+        </aside>
+
+        <aside>
+
+          <label for='favorite-ability'>Favorite Ability</label>
+          <input type='text' name='favorite-ability' id='favorite-ability' placeholder='precognition'>
+
+        </aside>
+
+        <aside>
+
+          <label for='pilot-experience'>Pilot Experience</label>
+
+          <label>
+              <input type='radio' name='pilot-experience' value='speeder'>
+              Speeder
+            </label>
+
+            <label>
+              <input type='radio' name='pilot-experience' value='transport'>
+              Transport
+            </label>
+
+            <label>
+              <input type='radio' name='pilot-experience' value='x-wing'>
+              X-wing
+
+             <label>
+              <input type='radio' name='pilot-experience' value='tie-fighter'>
+              TIE Fighter
+              </label>
+
+              <label>
+                <input type='radio' name='pilot-experience' value='starship'>
+                Starship
+              </label>
+
+              <label>
+                <input type='radio' name='pilot-experience' value='bantha'>
+                Bantha
+
+              </label>
+
+        </aside>
+
+      </fieldset>
+
+      <fieldset>
+
+        <aside>
+
+
+
 
 
         </aside>
 
 
-      </fieldset>
 
+
+
+
+      </fieldset>
 
 
 
