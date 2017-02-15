@@ -1,6 +1,21 @@
 fieldset {
   vertical-align: top;
-  display: inline-block;
+  display: inline;
   width: 30%;
   margin: 0;
+}
+
+.input text {
+  border-radius: 6px;
+
+  -webkit-appearance: none;
+}
+
+textarea {
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+label {
+  display: block;
 }
