@@ -5,17 +5,31 @@ fieldset {
   margin: 0;
 }
 
-.input text {
-  border-radius: 6px;
-
-  -webkit-appearance: none;
+input  {
+  border-radius: 10px;
 }
 
 textarea {
   border-radius: 6px;
   border: 1px solid;
+  height: 75px;
+  width: 100%;
+}
+
+# small-buttons {
+  border-radius: 6px;
 }
 
 label {
-  display: block;
+font-weight: bold;
 }
+
+/*label {
+  display: block;
+}*/
+
+aside {
+  top-margin: 10px;
+}
+
+iput
